@@ -1,5 +1,5 @@
 from .app import App, MainWindow
-# from .color import color
+from .color import native_color
 # from .command import Command
 # from .font import font
 from .widgets.box import Box
@@ -35,7 +35,7 @@ __all__ = [
     'not_implemented',
 
     'App', 'MainWindow',
-    # 'color',
+    'native_color',
     # 'Command',
     # 'font',
     'Box',
