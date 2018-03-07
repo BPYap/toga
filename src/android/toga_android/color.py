@@ -1,5 +1,3 @@
-from .libs import Color
-
 CACHE = {}
 
 
